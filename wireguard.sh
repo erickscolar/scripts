@@ -71,4 +71,4 @@ echo "PersistentKeepalive = 25"
 echo "####################### END OF CLIENT PEER #######################"
 
 # To add peer to server from shell:
-# sudo wg set intranet peer p9C3tb7CSAz4PNGnaHWpGiLbcBzgGAvFBs8BwRwe2C0= allowed-ips 10.10.0.0/20,fd18:d2bb:3f25::/64
+# sudo wg set intranet peer <peer_public_key> allowed-ips <ipv4>,<ipv6>
